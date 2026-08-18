@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ejercicio5">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Encabezado -->
+        <TableRow android:background="#CCCCCC">
+
+            <TextView
+                android:padding="8dp"
+                android:text="Id"
+                android:textStyle="bold" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Nombre"
+                android:textStyle="bold" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Apellido"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <!-- Fila 1 -->
+        <TableRow android:background="#3CCF40">
+
+            <TextView
+                android:padding="8dp"
+                android:text="1" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Edwin" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="De Peña" />
+        </TableRow>
+
+        <!-- Fila 1 -->
+        <TableRow android:background="#CF3C43">
+
+            <TextView
+                android:padding="8dp"
+                android:text="2" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Florangel" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Perez" />
+        </TableRow>
+
+        <!-- Fila 1 -->
+        <TableRow android:background="#CF3CAF">
+
+            <TextView
+                android:padding="8dp"
+                android:text="3" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Elliam" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Jimenez" />
+        </TableRow>
+
+        <!-- Fila 1 -->
+        <TableRow android:background="#3C3ECF">
+
+            <TextView
+                android:padding="8dp"
+                android:text="4" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Carlos" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Torre" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="16dp"
+        android:text="Volver al Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
